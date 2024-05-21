@@ -1,0 +1,35 @@
+.user-card{
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-role{
+  width: 90px;
+}
+.user-name{
+  margin-left: 15px;
+  width: 250px;
+}
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.h-50{
+  height: 200px;
+  overflow-y: scroll;
+}
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

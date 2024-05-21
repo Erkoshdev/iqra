@@ -1,0 +1,89 @@
+.test-heading {
+  border-radius: 20px;
+  background: var(--iqra-white, #FFF);
+  padding: 30px;
+}
+
+.test-title {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.test-subtitle {
+  margin-top: 10px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.test-container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.test-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.test-item + .test-item {
+  margin-top: 20px;
+}
+
+.test-item-question {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.test-item-question-number {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.test-item-answer {
+  padding-left: 30px;
+}
+
+.test-item .form-container {
+  width: 300px;
+}
+
+.test-item-correct-answer {
+  margin-top: 10px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 30px;
+}
+
+.test-item-correct-answer-answer b {
+  font-weight: 600;
+}
+
+.test-item-point {
+  margin-top: 20px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 30px;
+}

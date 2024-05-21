@@ -1,0 +1,14 @@
+.select-lesson-modal {
+  padding: 30px;
+  background: #F4F4F4;
+}
+
+.select-lesson-modal-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.select-lesson-modal-tools .btn + .btn {
+  margin-left: 10px;
+}

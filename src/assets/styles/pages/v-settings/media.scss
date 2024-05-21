@@ -1,0 +1,14 @@
+@media screen and (max-width: 767px) {
+  .tab-nav-link-name{
+    display: none;
+  }
+  .tab-nav-link {
+    padding: 15px 0;
+  }
+  .settings-container.three-col {
+    grid-template-columns: 1fr;
+  }
+  .settings-container.two-col{
+    grid-template-columns: 1fr;
+  }
+}

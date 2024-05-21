@@ -1,0 +1,38 @@
+.group-list {
+  margin-top: 10px;
+}
+
+.group-card {
+  position: relative;
+  border-radius: 10px;
+  background: #FFF;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+.group-card + .group-card {
+  margin-top: 10px;
+}
+
+.group-card-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.group-card-tools {
+  margin-top: auto;
+  display: flex;
+}
+.group-card-info {
+  color: #1DAEFF;
+}
+

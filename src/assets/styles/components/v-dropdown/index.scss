@@ -1,0 +1,15 @@
+.v-dropdown {
+  position: relative;
+  width: fit-content;
+}
+
+.v-dropdown-base {
+  position: relative;
+  cursor: pointer;
+}
+
+.v-dropdown-area {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 5px);
+}

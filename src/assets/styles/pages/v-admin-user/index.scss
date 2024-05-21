@@ -1,0 +1,109 @@
+.btn-add{
+  word-break: break-all;
+}
+.user-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-row-name{
+  overflow: hidden;
+  color: var(--iqra-grey-450, #808080);
+  text-overflow: ellipsis;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 13.2px */
+}
+
+.user-row-value {
+  overflow: hidden;
+  color: var(--iqra-black, #000);
+  text-overflow: ellipsis;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+  line-height: 110%; /* 17.6px */
+  margin-top: 5px;
+}
+.settings-container-col.align-bot{
+  align-self: end;
+}
+.settings-container-col + .mt-2{
+  margin-top: 15px;
+}
+
+.user-activity {
+  display: flex;
+}
+.user-activity-delete {
+  margin-left: 10px;
+}
+.user-status{
+  width: 150px;
+}
+
+.status-toggle {
+  position: relative;
+  background: transparent;
+  border: none;
+}
+
+.status-dropdown {
+  margin-top: 5px;
+}
+
+.status-toggle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 17.6px */
+  display: flex;
+  align-items: center;
+}
+
+.status-toggle svg {
+  margin-left: 10px;
+}
+
+.status-toggle.basic {
+  color: #808080;
+}
+
+.status-toggle.success {
+  color: #3EC965;
+}
+
+.status-toggle.danger {
+  color: #F94848;
+}
+
+.status-list {
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+  z-index: 1;
+  padding: 10px;
+}
+
+.status-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  white-space: nowrap;
+  display: block;
+}
+
+.status-list li + li {
+  margin-top: 5px;
+}
+
+.status-dropdown .v-dropdown-area {
+  z-index: 1;
+}

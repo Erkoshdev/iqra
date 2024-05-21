@@ -1,0 +1,189 @@
+button {
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 100px;
+  transition: 0.2s ease;
+  border: 2px solid;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.btn-square {
+  border-radius: 10px;
+}
+
+.btn span {
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.btn svg + span, .btn span + svg, .btn i + span, .btn span + i {
+  margin-left: 18px;
+}
+
+.btn-md {
+  padding: 10px 24px;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 50px;
+}
+.btn-w-100 {
+  width: 100%;
+  padding: 10px 24px;
+  font-size: 18px;
+  font-weight: 700;
+  min-height: 50px;
+}
+.btn-sm {
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  min-height: 40px;
+}
+
+.btn:disabled {
+  background: #F4F7FF;
+  color: #6D7885;
+  border-color: #F4F7FF;
+  cursor: default;
+}
+
+.btn.disabled {
+  background: #F4F7FF;
+  color: #6D7885;
+  border-color: #F4F7FF;
+}
+
+.btn-dark {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+.btn-dark-w-100{
+  background: #000;
+  border-color: #000;
+  color: #fff;
+  width: 100%;
+}
+.btn-outline-dark {
+  background: #fff;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-light {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+.btn-info {
+  background: #3EC9C1;
+  border-color: #3EC9C1;
+  color: #fff;
+}
+
+.btn-outline-info {
+  background: #fff;
+  border-color: #3EC9C1;
+  color: #3EC9C1;
+}
+
+.btn-info-light {
+  background: #1DAEFF;
+  border-color: #1DAEFF;
+  color: #fff;
+}
+.btn-info-light-outline{
+  color: #1DAEFF;
+  border-color: #1DAEFF;
+  background: transparent;
+}
+
+.btn-danger {
+  background: #F94848;
+  border-color: #F94848;
+  color: #fff;
+}
+
+.btn-light-danger{
+  background: #F14635;
+  border-color: #F14635;
+  color: #fff;}
+
+.btn-outline-danger {
+  background: transparent;
+  border-color: #F94874;
+  color: #F94874;
+}
+
+.btn-outline-danger-text {
+  background: transparent;
+  border-color: transparent;
+  color: #F94874;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-primary {
+  background: #1DAEFF;
+  border-color: #1DAEFF;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  background: transparent;
+  border-color: #1DAEFF;
+  color: #1DAEFF;
+}
+
+.btn-success {
+  background: #3EC965;
+  border-color: #3EC965;
+  color: #fff;
+}
+
+.btn-outline-success {
+  background: transparent;
+  border-color: #3EC965;
+  color: #3EC965;
+}
+
+.btn-outline-basic {
+  background: transparent;
+  border-color: #808080;
+  color: #808080;
+}
+.btn-basic {
+  background: #BFBFBF;
+  border-color: #BFBFBF;
+  color: #fff;
+}
+.btn-access {
+  background: #3EC965;
+  border-color: #3EC965;
+  color: #fff;
+}
+
+.btn-warning {
+  background: #FFB800;
+  border-color: #FFB800;
+  color: #fff;
+}
+
+.btn-gray {
+  background: #414141;
+  border-color: #414141;
+  color: #fff;
+}

@@ -1,0 +1,224 @@
+.course-program {
+  margin-top: 30px;
+}
+
+.add-course-link {
+  border-radius: 10px;
+  background: #5FC5FF;
+  padding: 20px;
+  width: calc(33.3% - 10px);
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 125px;
+}
+
+.i-plus {
+  background: url("../img/icon/plus-md.svg");
+  width: 24px;
+  height: 24px;
+}
+
+.add-course-link i {
+  margin-bottom: 4px;
+}
+
+.course-chapter {
+  margin-bottom: 30px;
+}
+
+.redact-container-desc {
+  margin-bottom: 10px;
+  color: #000;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.redact-container-desc input {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.redact-container-desc input::placeholder {
+  color: #BFBFBF;
+}
+
+.redact-container-desc input:focus {
+  outline: none;
+}
+
+.redact-container-point {
+  display: flex;
+  align-items: center;
+}
+
+.redact-container-point small {
+  display: block;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+}
+
+.redact-container-point .form-container {
+  width: 70px;
+  margin-left: 10px;
+}
+
+.lesson-redact {
+  margin-bottom: 20px;
+}
+
+.redact-container-video {
+  display: flex;
+  align-items: center;
+}
+
+.redact-container-video small {
+  display: block;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.redact-container-video .form-container {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.editor-container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 30px 30px 40px;
+}
+
+.course-chapter-add {
+  margin-top: 30px;
+}
+
+.course-chapter-add input {
+  color: var(--iqra-black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 16px */
+  background: transparent;
+  width: 100%;
+  border: none;
+}
+
+.course-chapter-add input:focus {
+  outline: none;
+}
+
+.course-chapter-add input::placeholder {
+  color: #000;
+  opacity: 0.3;
+}
+
+.course-chapter-add .btn-success {
+  margin-top: 15px;
+}
+
+.course-empty-container {
+  border-radius: 20px;
+  padding: 10px 30px 40px;
+  margin-top: 20px;
+  color: var(--iqra-purple-2, #A57BFE);
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 22px */
+}
+
+.course-empty-container b {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.course-chapter-head {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.course-chapter-tools {
+  margin-left: auto;
+  display: flex;
+}
+
+.chapter-demo-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.course-chapter-name {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  flex: 1;
+  border-bottom: 1px solid transparent;
+  margin-right: 30px;
+}
+
+.course-chapter-name.has-border {
+  border-bottom-color: #BFBFBF;
+}
+
+.course-chapter-name input {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  flex: 1;
+  margin-left: 5px;
+  border: none;
+  background: transparent;
+}
+
+.course-chapter-name input:focus {
+  outline: none;
+}
+
+.i-pencil {
+  background: url("../img/icon/pencil.svg");
+  width: 17px;
+  height: 17px;
+}
+
+.course-chapter-head .btn-plain + .btn-plain {
+  margin-left: 5px;
+}
+
+.edit-chapter-name {
+  margin-bottom: 10px;
+}

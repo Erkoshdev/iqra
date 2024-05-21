@@ -1,0 +1,376 @@
+.lesson-page .back-link {
+  margin-bottom: 18px;
+}
+
+.lesson-intro-container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 30px;
+  display: flex;
+}
+
+.lesson-intro-caption {
+  flex: 1;
+}
+
+.lesson-intro-caption b {
+  display: block;
+  margin-bottom: 5px;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.lesson-intro-caption h1 {
+  overflow: hidden;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 40px */
+  letter-spacing: -0.8px;
+  margin-bottom: 10px;
+}
+
+.lesson-intro-caption p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lesson-intro-img {
+  width: 145px;
+  height: 145px;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+
+.lesson-intro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.lesson-chapters {
+  margin-top: 30px;
+}
+
+.lesson-chapters-title {
+  margin-bottom: 20px;
+}
+
+.lesson-wrapper + .lesson-wrapper {
+  margin-top: 30px;
+}
+
+.lesson-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+
+.lesson-card {
+  position: relative;
+  border-radius: 10px;
+  background: #FFF;
+  padding: 20px;
+  width: calc(33.3% - 10px);
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 125px;
+}
+
+.lesson-card.selected {
+  border: 4px solid #1DAEFF;
+  padding: 16px;
+}
+
+.lesson-card-checkbox {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.lesson-card-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.lesson-card-time {
+  color: #808080;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin-bottom: 12px;
+}
+
+.lesson-card-tools {
+  margin-top: auto;
+  display: flex;
+}
+
+.lesson-card-tools span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.lesson-card-disabled {
+  color: #000;
+  opacity: 0.5;
+}
+
+.lesson-card-disabled:before {
+  content: '';
+  display: block;
+  background: url("../img/icon/lock.svg");
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.lesson-card-info {
+  color: #1DAEFF;
+}
+
+.lesson-card-success {
+  color: #3EC965;
+  margin-left: auto;
+}
+
+.lesson-card-success:before {
+  content: '';
+  display: block;
+  background: url("../img/icon/checkmark.svg");
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.lesson-card-redact-tools {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+
+.i-double-dots {
+  background: url("../img/icon/double-dots.svg");
+  width: 15px;
+  height: 15px;
+}
+
+.lesson-container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 30px;
+}
+
+.lesson-title {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.lesson-subtitle {
+  color: var(--iqra-black, #000);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  margin-bottom: 10px;
+}
+
+.lesson-media {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.lesson-media iframe {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lesson-section {
+  margin-bottom: 10px;
+}
+
+.lesson-section-title {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.lesson-section p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.lesson-section ul li + li {
+  margin-top: 10px;
+}
+
+.lesson-section ul li {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.lesson-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-progress-container {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-progress-container .progress-bar {
+  width: 97px;
+  height: 97px;
+}
+
+.user-progress-container b {
+  display: block;
+  margin-top: 15px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.user-rating {
+  margin-top: 30px;
+}
+
+.rating-container {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 5px 20px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.rating-item + .rating-item {
+  border-top: 1px solid #d8d8d8;
+}
+
+.rating-number {
+  display: block;
+  color: var(--iqra-black, #000);
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  width: 15px;
+  flex-shrink: 0;
+}
+
+.rating-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+
+.rating-status.success:before {
+  content: '';
+  background: url("../img/icon/triangle-top.svg") no-repeat center/contain;
+  display: block;
+  width: 12px;
+  height: 10px;
+}
+
+.rating-status.danger:before {
+  content: '';
+  background: url("../img/icon/triangle-bottom.svg") no-repeat center/contain;
+  display: block;
+  width: 12px;
+  height: 10px;
+}
+
+.rating-status.basic:before {
+  content: '';
+  background: #BFBFBF;
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.rating-name {
+  margin-left: 15px;
+  color: var(--iqra-black, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+
+.user-rating .btn {
+  margin-top: 10px;
+}
+
+@import "media";

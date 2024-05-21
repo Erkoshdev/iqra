@@ -1,0 +1,41 @@
+.textarea-form {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid var(--iqra-grey-25, #BFBFBF);
+  background: #FFF;
+  padding: 10px 15px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.textarea-form textarea {
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  border: none;
+  margin: 0;
+  resize: none;
+  min-height: 20px;
+  padding: 0;
+}
+
+.textarea-form textarea:focus {
+  outline: none;
+}
+
+.textarea-form textarea::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+.textarea-form.danger {
+  border-color: #F94848;
+}
+
+.textarea-form.success {
+  border-color: #3EC965;
+}

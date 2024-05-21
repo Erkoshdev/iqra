@@ -1,0 +1,115 @@
+.rating{
+  border-radius: 20px;
+  background: var(--iqra-white, #FFF);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 40px;
+}
+.rating-header{
+  display: flex;
+  justify-content: space-between;
+}
+.rating-header p{
+  display: flex;
+  align-items: center;
+}
+.rating-header p:first-child{
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+ }
+.rating-header p svg{
+  margin-right: 7px;
+}
+.rating-main-top{
+  display: flex;
+  align-self: center;
+  gap: 60px;
+  justify-content: space-between;
+}
+.rating-top-num{
+  margin-top: -16px;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+.rating-top-student{
+  margin-top: 7px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.rating-top-point {
+  color: var(--iqra-grey-450, #808080);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.gold-color {
+  color: var(--iqra-yellow-1, #FFB800);
+}
+.bronze-color{
+  color: #D58D54;
+}
+.rating-main-top-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rating-main-top-card:nth-child(1), .rating-main-top-card:nth-child(3){
+  margin-top: 50px;
+}
+.rating-main-top-card-img img{
+  position: absolute;
+  top: 4%;
+  right: 22%;
+}
+.rating-main-top-card-img{
+  position: relative;
+}
+.rating-card{
+  border-radius: 20px;
+  border: 2px solid var(--iqra-grey-15, #D8D8D8);
+  background: var(--iqra-white, #FFF);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+.rating-stud-order{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rating-stud-name{
+  color: var(--iqra-black, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.rating-stud-point{
+  color: var(--iqra-blue-2, #1DAEFF);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: auto;
+}
+.rating-top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

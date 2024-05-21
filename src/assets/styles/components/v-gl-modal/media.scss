@@ -1,0 +1,45 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .v-modal__container {
+    width: calc(100% - 30px);
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .v-modal__body {
+    padding: 15px;
+  }
+  .v-modal__container hr {
+    margin: 0.5rem 0;
+  }
+  .v-modal__container {
+    width: calc(100% - 30px);
+  }
+  .authorize-modal-half {
+    margin: -15px;
+  }
+}
+
+@media (max-width: 320px) {
+
+}
+@media screen and (max-width: 797px) {
+  .my-course-list .my-course-item {
+    width: 100%!important;
+  }
+  .col-2{
+    display: none;
+  }
+  .row{
+    padding: 10px;
+    width: 100%!important;
+    margin: 0!important;
+  }
+  .col-8{
+    width: 100%!important;
+  }
+}

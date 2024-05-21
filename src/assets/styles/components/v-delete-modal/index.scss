@@ -1,0 +1,25 @@
+.delete-modal-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 10px;
+}
+.delete-modal-title{
+  color: #000;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+}
+.delete-modal-subtitle{
+  color: #000;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}

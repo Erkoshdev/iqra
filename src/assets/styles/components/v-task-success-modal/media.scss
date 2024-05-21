@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  .task-success-modal-tools {
+    display: block;
+  }
+  .task-success-modal-tools .btn + .btn {
+    margin-top: 10px;
+  }
+}

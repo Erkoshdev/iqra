@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  .confirm-task-finish-tools {
+    display: block;
+  }
+  .confirm-task-finish-tools .btn + .btn {
+    margin-top: 10px;
+  }
+}

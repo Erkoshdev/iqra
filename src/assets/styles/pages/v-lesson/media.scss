@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+  .lesson-intro-container{
+    flex-direction: column-reverse;
+  }
+  .lesson-card {
+    width: 100%!important;
+  }
+
+  .lesson-section {
+    margin-bottom: 3px;
+  }
+}

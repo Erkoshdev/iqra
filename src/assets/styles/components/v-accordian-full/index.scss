@@ -1,0 +1,84 @@
+.program {
+  display: block;
+  padding: 30px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: Vela Sans GX!important;
+}
+.program .title {
+  color: var(--iqra-white, #FFF);
+  font-family: Vela Sans GX;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%; /* 50px */
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;}
+
+.program .title::after{
+  content: '';
+  transition: all 0.2s linear;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(0deg);
+  width: 35px;
+  height: 35px;
+  background-image: url('@/assets/img/icon/plus-wh.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.program .content {
+  opacity: 0;
+  max-height: 0px;
+  overflow-y: hidden;
+  padding: 0 10px;
+  transition: all 0.3s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.program.open .title::after{
+  transform: translateY(-50%) rotate(45deg);
+}
+.program.open .content{
+  max-height: 100vh;
+  border-radius: 30px;
+  opacity: 1;
+  background: white;
+  padding: 40px;
+}
+
+.program.open .title{
+  margin-bottom: 15px;
+}
+.program-info{
+  color: var(--iqra-black, #000);
+  font-family: Vela Sans GX!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 55%;
+}
+.content-syllabus-title, .content-learn-title {
+  color: var(--iqra-black, #000);
+  font-family: Vela Sans GX!important;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content-syllabus-list li, .content-learn-list li {
+  color: var(--iqra-black, #000);
+  font-family: Vela Sans GX!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 3px;
+}
+.content-syllabus-title{
+  margin-top: 50px;
+}

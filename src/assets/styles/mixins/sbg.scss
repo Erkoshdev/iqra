@@ -1,0 +1,17 @@
+@mixin sbg(
+  $c: '',
+  $i: '',
+  $r: no-repeat,
+  $p: center center,
+  $s: auto auto
+) {
+  @if ($c != '') {
+    background-color: $c;
+  }
+  @if ($i != '') {
+    background-image: url($i);
+  }
+  background-repeat: $r;
+  background-position: $p;
+  background-size: $s;
+}

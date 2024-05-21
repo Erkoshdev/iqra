@@ -1,0 +1,6 @@
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder {color:$color;text-overflow: ellipsis;}
+  &::-moz-placeholder          {color:$color;text-overflow: ellipsis;}/* Firefox 19+ */
+  &:-moz-placeholder           {color:$color;text-overflow: ellipsis;}/* Firefox 18- */
+  &:-ms-input-placeholder      {color:$color;text-overflow: ellipsis;}
+}

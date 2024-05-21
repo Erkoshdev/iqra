@@ -1,0 +1,48 @@
+.search-bar-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 100px;
+  background: #FFF;
+  margin-bottom: 20px;
+}
+
+.search-bar-form input {
+  flex: 1;
+  margin: 0 18px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.search-bar-form input:focus {
+  outline: none;
+}
+
+.search-bar-form svg {
+  padding-left: 13px;
+}
+
+.search-bar-form .btn {
+  border-radius: 100px;
+  background: var(--iqra-black, #000);
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+  width: fit-content;
+  transition: 0.2s ease;
+  border: 2px solid;
+  white-space: normal;
+}
+
+.search-bar-form input::placeholder {
+  color: #000;
+  opacity: 0.4;
+}

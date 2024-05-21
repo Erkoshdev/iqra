@@ -1,0 +1,70 @@
+//fonts
+@import "fonts";
+
+
+//Core files
+@import "mixins";
+
+
+//structure
+@import "structure";
+
+
+//base
+@import "base";
+
+
+//other
+@import "z-index";
+@import "common";
+
+
+//components
+@import "components/v-button";
+@import "components/v-dropdown";
+@import "components/v-input";
+@import "components/v-agree-form";
+@import "components/v-accordian";
+@import "components/v-sidebar";
+@import "components/v-header";
+@import "components/v-search";
+@import "components/v-header-notification";
+@import "components/v-header-profile";
+@import "components/v-search-bar";
+@import "components/v-chekbox-group";
+@import "components/v-radio-group";
+@import "components/v-textarea";
+@import "components/v-switch";
+@import "components/v-gl-modal";
+@import "components/v-accordian-full";
+@import "components/v-user-card";
+@import "components/v-payment-modal";
+@import "components/v-select-lesson-modal";
+@import "components/v-application-modal";
+@import "components/v-delete-modal";
+@import "components/v-modal";
+@import "components/v-confirm-finish-task-modal";
+@import "components/v-task-success-modal";
+
+
+//pages
+@import "pages/v-main";
+@import "pages/v-auth";
+@import "pages/v-cabinet-main";
+@import "pages/v-news";
+@import "pages/v-lesson";
+@import "pages/v-test";
+@import "pages/v-group";
+@import "pages/v-landing";
+@import "pages/v-settings";
+@import "pages/v-faq";
+@import "pages/v-rating";
+@import "pages/v-admin";
+@import "pages/v-admin-news";
+@import "pages/v-admin-user";
+@import "pages/v-admin-course";
+@import "pages/v-admin-task";
+@import "pages/v-admin-broadcast";
+@import "pages/v-admin-task-question";
+
+
